@@ -1,0 +1,155 @@
+@import "tongyongyangshi.css";
+
+
+header {
+    font-size: 0.38rem;
+    line-height: 1.4rem;
+    color: #4ebbfe;
+    text-align: center;
+    position: relative;
+
+}
+
+header .iconfont {
+    line-height: 1.4rem;
+    font-size: 1.2rem;
+    position: absolute;
+    left: 0;
+}
+
+.top {
+    height: 0.6rem;
+    padding: 0.22rem 0.17rem;
+}
+
+span {
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+    letter-spacing: 0.01rem;
+    color: #4ebbfe;
+    float: left;
+}
+
+.top a {
+    width: 7.14rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    background: rgba(55, 169, 254, 0.1);
+    float: right;
+    position: relative;
+}
+
+.top .fdj {
+    width: 0.5rem;
+    height: 0.48rem;
+    float: right;
+    position: absolute;
+    right: 0.19rem;
+    top: 0.1rem;
+}
+
+.top p {
+    position: absolute;
+    font-size: 0.24rem;
+    color: #c8d9e6;
+    line-height: 0.6rem;
+    left: 0.37rem;
+}
+
+.top img {
+    position: absolute;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 2.22rem;
+    bottom: 0;
+    display: flex;
+    /*background:rgba(55,169,254,0.05);*/
+    box-sizing: border-box;
+    padding: 0 0.22rem;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.zjss {
+    height: 0.32rem;
+
+    padding: 0.22rem;
+    position: relative;
+
+}
+
+.zjss span {
+    font-size: 0.32rem;
+    color: #41b2fc;
+    margin-left: 0.1rem;
+}
+
+.zjss .o1:before {
+    content: '';
+    width: 0.1rem;
+    height: 0.05rem;
+    left: 0.14rem;
+    top: 0.5rem;
+    background-color: #44b5ff;
+    border-radius: 0.03rem;
+    position: absolute;
+}
+.zjss .o2 {
+    color: black;
+}
+
+.zjnr {
+    margin-top: 0.17rem;
+    height: 0.48rem;
+    padding: 0.12rem 0.22rem;
+
+}
+
+.zjnr span {
+    padding: 0 0.22rem;
+    margin-right: 0.19rem;
+    background: rgba(59,171,255,0.1);
+    border-radius:0.34rem ;
+}
+
+.djss{
+    height: 0.32rem;
+
+    padding: 0.22rem;
+    position: relative;
+    margin-top: 0.34rem;
+
+}
+.djss span{
+    font-size: 0.32rem;
+    color: #41b2fc;
+    margin-left: 0.1rem;
+}
+.djss  .o1:before {
+    content: '';
+    width: 0.1rem;
+    height: 0.05rem;
+    left: 0.14rem;
+    top: 0.5rem;
+    background-color: #44b5ff;
+    border-radius: 0.03rem;
+    position: absolute;
+}
+.djss .o2 {
+    color: #000;
+}
+.djnr {
+    margin-top: 0.17rem;
+    height: 0.48rem;
+    padding: 0.12rem 0.22rem;
+
+}
+.djnr span{
+    padding: 0 0.22rem;
+    margin-right: 0.19rem;
+    background: rgba(59,171,255,0.1);
+    border-radius:0.34rem ;
+}

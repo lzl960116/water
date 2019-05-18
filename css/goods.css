@@ -1,0 +1,151 @@
+@import "tongyongyangshi.css";
+
+header {
+    font-size: 0.38rem;
+    line-height: 1.4rem;
+    color: #4ebbfe;
+    text-align: center;
+    position: relative;
+}
+
+header .iconfont {
+    line-height: 1.4rem;
+    font-size: 1.2rem;
+    position: absolute;
+    left: 0;
+}
+
+.topxx {
+    height: 0.6rem;
+    padding: 0.22rem 0.17rem;
+    display: flex;
+    font-size: 0.22rem;
+    color: #3bacfe;
+    justify-content: space-around;
+    position: relative;
+}
+
+.topxx .hot {
+    color: #36d681;
+}
+
+.topxx .iconfont {
+    color: #3bacfe;
+    line-height: 0.6rem;
+    font-size: 0.3rem;
+    margin-left: 0.17rem;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 2.42rem;
+    bottom: 0;
+    display: flex;
+    box-sizing: border-box;
+    padding: 0 0.22rem;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.content li {
+    width: 7.06rem;
+    height: 1.74rem;
+    margin-top: 0.22rem;
+    margin-bottom: 0.44rem;
+    background: white;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+.ctimg {
+    width: 1.18rem;
+    height: 1.18rem;
+    float: left;
+    padding: 0.28rem;
+}
+
+.ctwz {
+    width: calc(100% - 1.74rem);
+    float: left;
+    height: 1.74rem;
+    padding: 0 0.18rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wzbt {
+    font-size: 0.3rem;
+    letter-spacing: 0.01rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.pingfen {
+    font-size: 0.22rem;
+    color: rgba(0, 0, 0, 0.3);
+    padding: 0.1rem 0.22rem;
+    height: 0.21rem;
+}
+.pingfen span{
+    padding-left: 0.15rem;
+    position: relative;
+    margin-right: 0.08rem;
+}
+.pingfen span:before{
+    content: '';
+    position: absolute;
+    width: 0.06rem;
+    height: 0.06rem;
+    left: 0px;
+    top: 0.14rem;
+    border-radius: 50%;
+    background:#44b5ff ;
+
+}
+.pingfen strong {
+    font-size: 0.26rem;
+    color: #36a8fe;
+    margin-right: 0.4rem;
+}
+.pingjia{
+    padding: 0.08rem 0 0 0;
+}
+.pingjia span{
+    padding: 0.08rem 0.2rem;
+    font-size: 0.2rem;
+    color: #36a8fe;
+    background-color: rgba(231,246,255,1);
+    border-radius: 0.18rem;
+}
+.yishou{
+    padding: 0.08rem 0;
+}
+.yishou span{
+    font-size: 0.18rem;
+    color: rgba(0,0,0,0.3);
+    padding: 0 0.36rem;
+    position: relative;
+}
+.yishou span:before{
+    content: '';
+    position: absolute;
+    width: 0.06rem;
+    height: 0.06rem;
+    left: 0.21rem;
+    top: 0.1rem;
+    border-radius: 50%;
+    background: #36d681;
+}
+.jiage{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+.jiage span{
+    font-size: 0.26rem;
+    color: #fbb548;
+}
