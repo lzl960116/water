@@ -1,6 +1,8 @@
 @import "tongyongyangshi.css";
 
-
+.waibu{
+    filter: blur(8px);
+}
 header {
     font-size: 0.38rem;
     line-height: 1.4rem;
@@ -38,7 +40,7 @@ span {
     height: 0.1rem;
     position: absolute;
     left: 0.9rem;
-    top: 1.88rem;
+    top: 1.3rem;
 }
 
 .top .fdj {
@@ -117,6 +119,28 @@ span {
     color: #8e9397;
 }
 
+.tubiao .img1{
+    position: absolute;
+    width: 0.88rem;
+    height: 0.7rem;
+    left: 3.3rem;
+    bottom: 0.86rem;
+}
+.tubiao .img2{
+    position: absolute;
+    width: 1.78rem;
+    height: 2rem;
+    left: 1.5rem;
+    bottom: 2.72rem;
+}
+.tubiao .img3{
+    position: absolute;
+    width: 1.78rem;
+    height: 2rem;
+    right: 1.5rem;
+    bottom: 2.72rem;
+}
+
 .menu {
     padding: 0 0.22rem;
     width: 100%;
@@ -151,6 +175,6 @@ span {
     font-size: 0.24rem;
     color: #59c3fe;
 }
- .menu .hot{
-     opacity: 1;
- }
+.menu .hot{
+    opacity: 1;
+}

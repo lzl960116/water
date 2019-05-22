@@ -15,6 +15,9 @@ header .iconfont {
     position: absolute;
     left: 0;
 }
+header  a i{
+    color: #4ebbfe;
+}
 .q1{
     /*display: none;*/
 }
@@ -169,7 +172,7 @@ header .iconfont {
 }
 
 .ft .k2 {
-    font-size: 0.36rem;
+    font-size: 0.28rem;
     color: #36a8fe;
 }
 
