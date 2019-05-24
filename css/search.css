@@ -17,6 +17,9 @@ header .iconfont {
     position: absolute;
     left: 0;
 }
+header  a i{
+    color: #4ebbfe;
+}
 
 .top {
     height: 0.6rem;
