@@ -20,7 +20,9 @@ header .iconmore {
     font-size: 0.6rem;
     margin-right: 0.44rem;
 }
-
+header  a i{
+    color: #4ebbfe;
+}
 /*header*/
 .sptp {
     width: 100%;
