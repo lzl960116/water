@@ -62,34 +62,6 @@ span {
     position: absolute;
 }
 
-.shuffling {
-    height: 2.99rem;
-    position: relative;
-}
-
-.shuffling img {
-    position: absolute;
-}
-
-.shuffling .sflist {
-    width: 100%;
-    position: absolute;
-    bottom: 0.17rem;
-    text-align: center;
-    z-index: 999;
-}
-
-.shuffling .sflist li {
-    border-radius: 0.1rem;
-    display: inline-block;
-    width: 0.11rem;
-    height: 0.11rem;
-    margin: 0 0.13rem;
-    background: #46b7f8;
-    cursor: pointer;
-    text-indent: -999999rem;
-}
-
 .options {
     margin: 0 0.22rem;
     height: 7.3rem;
